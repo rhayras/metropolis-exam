@@ -171,7 +171,8 @@
                             table.ajax.reload(null, false);
                             $("#visitorModal").modal("toggle");
                             $("#visitorForm")[0].reset();
-
+                            $('.for-vehicle').fadeIn();
+                            $("#walk_in_val").val(0);
                         }
                     }else{
                         printError(data.error);
