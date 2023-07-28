@@ -47,7 +47,7 @@ Open the CreateUsersSeeder and set the property values as per your requirement
 
 Run the database seeder and you're done
 
-    php artisan db:seed
+    php artisan db:seed --class=CreateUsersSeeder
 
 **_Note_** : It's recommended to have a clean database before seeding. You can refresh your migrations at any point to clean the database by running the following command
 
